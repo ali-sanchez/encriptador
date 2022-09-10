@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <title>Encriptador de texto</title>
+
+</head>
+
+<body>
+    <main class="main">
+        <header>
+            
+            <div class="texto-bienvenida">
+                <div class="wrap">
+                    <h1 class="text">ENCRIPTADOR</h1>
+               
+                    <h2 class="second">Bienvenido al</h2>
+                </div>
+            </div>
+
+            <div class="poke"></div> 
+        </header>
+
+        <section>
+                <textarea class="input-texto" cols="30" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+                <div id="div-desaparece">
+
+                    <img src="/imagenes/!.png" class="iconoAlerta" alt="icono de alerta">
+                    <h6 class="informacion"> Escribe sin acentos o caracteres especiales</h6>
+               
+                </div>
+
+                <div class="botones">
+
+                    <button class="encriptador" onclick="btnEncriptar()">Encriptar</button>
+    
+                    <button class="desencriptador" onclick="btnDesencriptar()">Desencriptar</button>
+               
+                </div>
+        </section>
+
+        <section class="mensaje-caja">
+
+                <textarea class= "mensaje" col="18" rows="8"></textarea>
+                
+                <button class="copiar" onclick="copiar()">Copiar</button>
+       
+        </section>
+
+    </main>
+  
+    <footer>
+        
+        <div>
+            <img src="/imagenes/Vector.png" class="logo" alt="Logo de alura">
+        
+            <p>ALURA LATAM <br>
+                
+                <br>
+                Programa ONE-ORACLE NEXT EDUCATION<br>
+                <br>
+                Ejercicio didactico
+                por Alí Sánchez
+            </p>
+
+        </div>
+
+            <img src="/imagenes/5FBP.gif" class="ash" alt="gif adorno footer">
+        
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
